@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+    <title>MY_WEB</title>
+</head>
+<body>
+    <style>
+        body{
+            background:url("amritansh-dubey-P9v37-Q6RSE-unsplash.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+        .box{
+            position: absolute;
+            width: 350px;
+            height: 500px;
+            background: linear-gradient(160deg, rgba(253, 253, 253, 0.114) 0%, rgba(255, 255, 255, 0.206) 100%);
+            box-shadow: 0px 4px 4px rgba(255, 255, 255, 0), inset 4px 4px 4px rgba(255, 255, 255, 0.25);
+            backdrop-filter: blur(10px);
+            
+            border-image: linear-gradient(to right, green, lightgreen);
+            border-image-slice: 1;
+            padding: 25px;
+            border-radius: 30px;
+        }
+        .text_box{
+                box-sizing: border-box;
+                position: absolute;
+                width: 300px;
+                height: 38px;
+                background: linear-gradient(180deg, rgba(224, 252, 121, 0) 0%, rgba(255, 255, 255, 0.158) 100%);
+                border: 1px solid rgba(255, 255, 255, 0);
+                box-shadow: 0px 4px 22px 2px #FFFFFF,red;
+                border-radius: 10px;
+        }
+                    label{
+                        display:flexbox;
+                        font-size: large;
+                    }
+                    ::placeholder{
+                        color: #918e8e;
+                    }
+                    .margin{
+                       
+                        margin-right: 80px;
+                    }
+                    div label button{
+                        color: hwb(0 100% 0% / 0.375);
+                        filter: brightness(2px);
+                       
+                    }
+                    
+                    .submit_box{
+                        box-sizing: border-box;
+                        position: absolute;
+                        width: 100px;
+                        height: 38px;
+                        background: linear-gradient(180deg, rgba(224, 252, 121, 0) 0%, rgba(245, 255, 110, 0.321) 100%);
+                        border: 1px solid rgba(255, 255, 255, 0);
+                        box-shadow: 0px 4px 22px 2px #FFFFFF,red;
+                        border-radius: 10px;
+                }
+
+                @media only screen and (max-width: 600px) {
+                    body {
+                        background:url("IMG_20230428_184038.jpg");
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                      
+                    }
+                    .box{
+                        position: absolute;
+                        width: 350px;
+                        height: 500px;
+                        background: linear-gradient(160deg, rgba(253, 253, 253, 0.114) 0%, rgba(255, 255, 255, 0.206) 100%);
+                        box-shadow: 0px 4px 4px rgba(255, 255, 255, 0), inset 4px 4px 4px rgba(255, 255, 255, 0.25);
+                        backdrop-filter: blur(10px);
+                        
+                        border-image: linear-gradient(to right, green, lightgreen);
+                        border-image-slice: 1;
+                        padding: 25px;
+                        border-radius: 30px;
+                    }
+                    .text_box{
+                            box-sizing: border-box;
+                            position: absolute;
+                            width: 300px;
+                            height: 38px;
+                            background: linear-gradient(180deg, rgba(224, 252, 121, 0) 0%, rgba(255, 255, 255, 0.158) 100%);
+                            border: 1px solid rgba(255, 255, 255, 0);
+                            box-shadow: 0px 4px 22px 2px #FFFFFF,red;
+                            border-radius: 10px;
+                    }
+                                label{
+                                    display:flexbox;
+                                    font-size: large;
+                                }
+                                ::placeholder{
+                                    color: #918e8e;
+                                }
+                                .margin{
+                                   
+                                    margin-right: 5px;
+                                }
+                                div label button{
+                                    color: hwb(0 100% 0% / 0.375);
+                                    filter: brightness(2px);
+                                   
+                                }
+                                
+                                .submit_box{
+                                    box-sizing: border-box;
+                                    position: absolute;
+                                    width: 100px;
+                                    height: 38px;
+                                    background: linear-gradient(180deg, rgba(70, 170, 223, 0.635) 0%, rgba(234, 157, 234, 0.771) 100%);
+                                    border: 1px solid rgba(255, 255, 255, 0);
+                                    box-shadow: 0px 4px 22px 2px #FFFFFF,red;
+                                    border-radius: 10px;
+                            }
+                           
+                            button,label{
+                                color: rgba(255, 255, 255, 0.669);
+                            }
+                             .log_margin{
+                               
+                                margin-left: 40px;
+                             }
+
+                  }
+                 
+                button,label{
+                    color: rgba(255, 255, 255, 0.669);
+                }
+                 .log_margin{
+                   
+                    margin-left: 40px;
+                 }
+                
+    </style>
+    <div class="w3-container box w3-display-right margin w3-blur">
+        <label for="email">Email ID</label><br>
+        <input class="text_box w3-hover-border-white" type="email" id="email" name="email" required autocomplete="email" placeholder="                    Email ID"><br><br><br>
+        <label for="password" >Password</label><br>
+        <input class="text_box w3-hover-border-white" type="password" id="password" name="password" required autocomplete="current-password" placeholder="                    Password"><br><br><br>
+        <button class="submit_box w3-display-middle">SUBMIT</button><br><br><br><br>
+        <hr>
+        <div class="w3-show-inline-block">
+<img src="google logo.svg" alt="google_logo" width="50px" height="50px" class="log_margin fa-">
+<lord-icon
+    src="https://cdn.lordicon.com/kkjbupgp.json"
+    trigger="hover"
+    colors="primary:#4be1ec,secondary:#cb5eee"
+    style="width:50px;height:50px" class="w3-padding-16 w3-margin-left">
+</lord-icon>
+</div>
+    </div>
+</body>
+</html>
